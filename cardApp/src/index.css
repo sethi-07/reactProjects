@@ -1,0 +1,170 @@
+body{
+  width: 100%;
+  background-color: #000;
+  font-family: Helvetica;
+  display: flex;
+  justify-content: center;
+}
+
+.parent{
+  height:100vh;
+  width:125vh;
+  background-color: rgb(239, 231, 220);
+  padding:10px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.cards{
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card{
+  width:300px;
+  height:340px;
+  background-color: white;
+  border: 2px solid #000;
+  border-radius: 30px;
+  /* margin: 30px; */
+  color:black;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.top{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 5px; */
+}
+
+.savebtn{
+  width:70px;
+  height:30px;
+  background-color: rgb(248, 244, 244);
+  color:rgb(3, 7, 11);
+  border:none;
+  border-radius: 10px;
+  align-self: flex-start;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.savebtn:hover{
+  background-color:rgb(3, 7, 11);
+  color:rgb(248, 244, 244);
+  border:2px solid rgb(3, 168, 250);
+  border-radius: 10px;
+}
+
+.comlogo{
+  border-radius: 50%;
+  border: 1px solid black;
+  width:40px;
+  height:40px;
+  margin-left: 5px;
+}
+
+
+.mid{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  gap:10px;
+  margin-top: 40px;
+}
+
+.cinfo{
+  display: flex;
+  gap:10px;
+  align-items: baseline;
+}
+ .role{
+  display:block;
+}
+
+.day{
+  font-size: 12px;
+  color:#666666;
+}
+
+.cname{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.role{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.atrbtn{
+  width:80px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bolder;
+  transition: background 0.7s ease;
+}
+.atrbtn:hover{
+background-color: #00000064;
+color:#fff;
+}
+
+.bottom{
+  margin-top: 40px;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.foot{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.sal{
+  font-size: larger;
+  font-weight: 600;
+}
+
+.loc{
+  font-size: smaller;
+  color:gray
+}
+.aplbtn {
+  height:35px;
+  background: #111;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.aplbtn:hover {
+  background: #f7e5bc;
+  color: #000;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #e11c1c;  /* soft grey line */
+  margin-top: 20px;                 /* space around line */
+  opacity: 0.8;
+}
+
+.attributes{
+  display: flex;
+  gap:10px;
+  flex-wrap: wrap;
+}

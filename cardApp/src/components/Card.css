@@ -1,0 +1,18 @@
+.top i.fi-rr-bookmark {
+  font-size: 1.5rem;
+  color: #666;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  margin-right: 8px;
+}
+
+.top i.fi-rr-bookmark:hover {
+  color: #333;
+}
+
+.top div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+}
