@@ -1,20 +1,11 @@
 import React from 'react'
 import TextCard from './TextCard'
-import Card from './Card'
-
-const Hero = () => {
+import ImgCards from './ImgCards'
+const Hero = (props) => {
   return (
-    <div className='flex h-[80vh] w-auto px-15 py-10 gap-50 bg-white justify-center'>
-     <div className='w-[60vh]'>
+    <div className='h-[80vh] w-full px-15 py-10 bg-white flex justify-between'>
       <TextCard/>
-     </div>
-
-      <div className='flex gap-2 px-2'>
-      <Card/>
-      <Card/>
-      <Card/>
-      </div>
-      
+      <ImgCards users = {props.users}/>  
     </div>
   )
 }

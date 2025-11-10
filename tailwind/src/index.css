@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+/*Used to remove scroll bar, tailwind doesnt have this functioning, need to add using id*/
+#right::-webkit-scrollbar{
+    display: none;
+}
